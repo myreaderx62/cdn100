@@ -1,0 +1,33 @@
+<!doctype html><html><head><meta charset="utf-8" />
+<meta name=viewport content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="xlo22481.css" />
+
+<title>File Not Found</title>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-10884311-2','xahlee.org');ga('send','pageview');</script>
+</head>
+<body>
+
+<nav class="nav_back_y94tk"><a href="index.html">Xah Lee Web</a></nav>
+
+<h1>File Not Found</h1>
+
+<footer>
+<span class="xsignet">∑</span><span class="xsignetxah">XAH</span> You Are Beautiful.<br />
+For copyright issues, contact xah @ xahlee.org
+</footer>
+
+<script>
+{
+// 2020-01-09T04:31:42-08:00
+const currentPath = window.location.pathname;
+if ( currentPath.length >= 5 && (currentPath !== "/index.html")) {
+    const allLinks = document.querySelectorAll ( 'a' );
+    allLinks.forEach ((link) => { 
+        if ( link.href.includes(currentPath) ) { link.style.backgroundColor = "lime"; link.style.boxShadow = "10px 10px 20px 0px green"; } 
+    });
+}
+}
+</script>
+
+</body></html>
